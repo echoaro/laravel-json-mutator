@@ -1,0 +1,67 @@
+{
+  "name": "echoaro/laravel-json-mutator",
+  "description": "A Laravel package for easy JSON metadata management with custom casts",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/echoaro/laravel-json-mutator",
+  "support": {
+    "issues": "https://github.com/echoaro/laravel-json-mutator/issues",
+    "source": "https://github.com/echoaro/laravel-json-mutator",
+    "docs": "https://github.com/echoaro/laravel-json-mutator#readme"
+  },
+  "keywords": [
+    "laravel",
+    "metadata",
+    "cast",
+    "json",
+    "eloquent",
+    "php",
+    "package"
+  ],
+  "authors": [
+    {
+      "name": "Arayik Grigoryan",
+      "email": "arayikgrigoryan.contact@gmail.com",
+      "homepage": "https://github.com/echoaro"
+    }
+  ],
+  "require": {
+    "php": "^8.2",
+    "laravel/framework": "^10.0|^11.0|^12.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^8.0|^9.0|^10.0",
+    "phpunit/phpunit": "^10.0|^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "JsonMutator\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "JsonMutator\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "JsonMutator\\Providers\\JsonMutatorServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "pestphp/pest-plugin": true,
+      "php-http/discovery": true
+    }
+  },
+  "scripts": {
+    "test": "phpunit",
+    "test-coverage": "phpunit --coverage-html coverage/",
+    "test-coverage-clover": "phpunit --coverage-clover coverage.xml"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
