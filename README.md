@@ -2,10 +2,10 @@
 
 [![Packagist](https://img.shields.io/packagist/v/echoaro/laravel-json-mutator.svg)](https://packagist.org/packages/echoaro/laravel-json-mutator)
 [![Downloads](https://img.shields.io/packagist/dt/echoaro/laravel-json-mutator.svg)](https://packagist.org/packages/echoaro/laravel-json-mutator)
-[![License](https://img.shields.io/packagist/l/echoaro/laravel-json-mutator.svg)](LICENSE.md)
+[![License](https://img.shields.io/github/license/echoaro/laravel-json-mutator.svg)](LICENSE.md)
 [![Tests](https://github.com/echoaro/laravel-json-mutator/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/echoaro/laravel-json-mutator/actions/workflows/tests.yml)
 [![PHP Version](https://img.shields.io/packagist/php-v/echoaro/laravel-json-mutator.svg)](https://packagist.org/packages/echoaro/laravel-json-mutator)
-[![Illuminate Support](https://img.shields.io/packagist/dependency-v/echoaro/laravel-json-mutator/illuminate/support.svg)](https://packagist.org/packages/echoaro/laravel-json-mutator)
+[![Laravel Framework](https://img.shields.io/packagist/dependency-v/echoaro/laravel-json-mutator/laravel/framework.svg)](https://packagist.org/packages/echoaro/laravel-json-mutator)
 
 A powerful Laravel package for easy JSON metadata management with custom casts, dot notation support, and fluent
 interface.
